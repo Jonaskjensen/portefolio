@@ -1,0 +1,283 @@
+
+body{
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
+/*--------NAVBAR----------------*/
+header{
+
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+    max-height: 754px;
+}
+#header {
+    display: block;
+    background-image: url('port.jpg');
+}
+header, section{
+  width: 100%;
+  margin: 0;
+}
+
+.span{
+  width: 100%;
+  font-size:34px;
+  margin-left: 5%;
+  cursor:pointer;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+/*----Velkommen tekst-----*/
+
+.middle {
+
+  text-align: center;
+margin-bottom: 10%;
+
+}
+
+.middle h1 {
+  font-size: 1.7em;
+  padding-top: 70px;
+}
+
+.middle p {
+  padding: 20px 0 25px 0;
+  font-size: 16px;
+}
+
+
+
+
+/*--------CASEKNAP----------------*/
+
+#hideshow {
+
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  }
+  a:link {
+    text-decoration: none;
+  }
+
+/*------billeder---*/
+
+.fullp{
+  width: 350px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+/*--------test----------------*/
+
+/*--------CASES----------------*/
+
+.case{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 70%;
+}
+
+.link{
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*--------OM----------------*/
+.om{
+  display: block;
+text-align: center;
+margin-bottom: 15%;
+
+}
+
+.om img{
+  height: 30px;
+  width: 30px;
+}
+.case{
+margin-bottom: 15%;
+
+}
+
+.om h4{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+
+  /* Pattern styles */
+header, section{
+  margin: 0;
+  width: 100%;
+}
+#cases img{
+  width: 100%;
+  margin-top: -55%;
+}
+  #cases .headline {
+      width: 100%;
+      overflow: hidden;
+  }
+  #cases{
+    margin: auto;
+  }
+  #cases h2 {
+    letter-spacing: 18px;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 -34px 0 0;
+    line-height: normal;
+}
+#cases h3{
+  text-align: center;
+}
+.flemside{
+  margin-bottom: 15%;
+}
+  /*-----PARRALAX-----*/
+  .parallax{
+    position: absolute;
+    top 50%;
+    width: 100vw;
+  }
+  #slider {
+  	background-image: url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  	background-repeat: no-repeat;
+  	height: 400px;
+  	width: 100%;
+  	background-size: cover;
+    padding: 0;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Raleway:800);
+
+
+
+/*--------MOBIL----------------*/
+@media screen and (max-width: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+.om{
+  margin-top: 14%;
+  padding: 5px;
+}
+.om h3{
+  letter-spacing: 10px;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
+}
+.om p{
+  width: 100%;
+  text-align:center;
+  margin: auto;
+
+
+}
+
+.fullp{
+  display: none;
+}
+#hideshow{
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 12%;
+}
+.banner1{
+height: 480px;
+}
+.parallax{
+  height: 40%;
+}
+
+}
+
+
+
+/*--------DESKTOP---------------*/
+@media screen and (max-width: 1900px) {
+
+  .fullp{
+    left: 60%;
+  }
+  #hideshow{
+    padding: 2px;
+    margin: auto;
+        width: 160px;
+
+        padding: 10px;
+  }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 900px) {
+
+.fullp{
+  display: none;
+}
+
+}
